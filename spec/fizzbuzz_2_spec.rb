@@ -12,5 +12,9 @@ describe 'fizzbuzz_2' do
   it 'returns "buzz" for the number 5' do
     expect(5.fizzbuzz).to eq 'buzz'
   end
+  
+  it 'returns "buzz" for multiples of 5' do
+    expect(10.fizzbuzz).to eq 'buzz'
+  end
 
 end
